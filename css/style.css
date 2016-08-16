@@ -1,7 +1,13 @@
+html{
+	max-width: 1122px;
+}
 body{
+	max-width: 1122px;
 	font-family: "PT Sans Narrow";
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 24px;
+	background-color:violet;
+	margin:0;
 
 }
