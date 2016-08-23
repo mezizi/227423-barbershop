@@ -9,17 +9,10 @@ body{
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 24px;
-	background:url(../img/backgroundindex.png);
+	background-image:url(../img/backgroundindex.png);
 	background-repeat: no-repeat;
 	background-color: #242424;
 	margin:0;
-}
-
-.header-main{
-	width: 100%;
-	height: 75px;
-	background-color:#000000;
-	box-sizing: border-box;	
 }
 
 .page{
@@ -28,13 +21,27 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	box-sizing: border-box;
+	background-color: pink;
+}
+
+.title-h1{
+	display: inline-block;
+	font-size: 30px;
+	line-height: 42px;
+	margin-top:60px;
+	margin-bottom:0;
+}
+/*-------------------------header-----------------*/
+.header-main{
+	width: 100%;
+	height: 75px;
+	background-color:#000000;
+	box-sizing: border-box;	
 }
 
 .menu-list__style{
 	list-style: none;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 0;
+	margin:0;
 	padding: 0;
 }
 
@@ -44,11 +51,17 @@ body{
 
 .menu-links{
 	text-decoration:none;
-	margin-right: 20px;
 	font-size: 16px;
 	line-height: 20px;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #ffffff;	
+}
+
+.menu-items__style{
+	margin-right: 20px;	
+}
+.menu-items__style:last-child{
+	margin-right: 0;
 }
 
 .singin .menu-links{
@@ -85,12 +98,13 @@ body{
 	position: absolute;
 	top:3px;
 	left:0;
-	background: url(../img/singin-icon.svg);
+	background: url(../img/singin-icon.png);
 	background-repeat: no-repeat;
 	width: 20px;
 	height: 16px;
 	margin-right:15px;
 }
+/*-------------------------main---------------------*/
 .container{
 	font-size: 14px;
 	line-height: 24px;
@@ -125,7 +139,7 @@ body{
 	font-size: 30px;
 	line-height: 42px;
 }
-/*.features-icon{
+.features-icon{
 	margin-top: 20px;
 	background-color: #ffffff;
 	background-size: 20px 20px;
@@ -134,7 +148,7 @@ body{
 	left:0;
 	width: 20px;
 	height: 20px;
-}*/
+}
 
 .features-text{
 	padding-top: 75px;
@@ -198,7 +212,7 @@ body{
 .content-title{
 	margin:0;
 }
-
+/*---------------------------footer--------------------------*/
 .footer{
 	color: #ffffff;
 	text-transform: uppercase;
@@ -207,6 +221,7 @@ body{
 	padding-top: 65px;
 	padding-bottom: 45px;
 	box-sizing: border-box;
+	margin-top: 65px;
 }
 .footer-content{
 	
@@ -231,4 +246,119 @@ body{
 	width: 150px;
 	float: left;
 }
+/*--------------------------------------bardershop-shop--------------------------------*/
+.background-none{
+	background-image:none;
+	color: #000000;
+	background-color: #f9f6f3;
+
+}
+
+.page-shop{
+	width: 960px;
+	margin:0 auto;
+	padding-right:10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	
+}
+
+.container-shop{
+	color:#000000;
+}
+.logo-name{
+	display: inline-block;
+	vertical-align: middle;
+	float:left;
+	margin-right: 40px;
+}
+.menu-shop__items{
+	width: 560px;
+}
+.bar-left{
+	width: 200px;
+	float: left;
+
+}
+/*---------------------grid-shop-----------------*/
+.grid-shop{
+	width: 700px;
+	float: left;
+	margin-bottom: 45px;
+
+}
+.grid-img{
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 220px;
+}
+.grid-img:nth-child(3n+3){
+	margin-right: 0;
+}
+/*-----------pagination------------*/
+.pagination{
+	float: left;
+}
+/*---------------------------main-----------------------------*/
+
+.breadcrumbs-panel{
+	margin-top: 30px;
+}
+.breadcrumbs {
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.breadcrumbs__items{
+	list-style: none;
+	display:inline-block;
+	margin-right: 40px;
+}
+.breadcrumbs__items:last-child{
+	margin-right:0;
+}
+
+.breadcrumbs__links{
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 20px;
+	color: #000000;
+
+}
+.container-shop{
+	margin-top:60px;
+}
+
+
+.inner-container-shop{
+	margin-top: 60px;
+	
+}
+.preview-img-container{
+	width: 460px;
+	margin-right: 90px;
+	float: left;
+	
+}
+.preview-img{
+	margin-bottom: 20px;	
+
+
+}
+.img-small{
+	float: left;
+	margin-right:20px;
+}
+.img-small:last-child{
+	margin-right: 0;
+}
+
+.inner-discription-good{
+	
+}
+
 
